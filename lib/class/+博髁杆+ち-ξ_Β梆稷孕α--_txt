@@ -1,0 +1,17 @@
+三个调用系统命令的函数：
+system() 输出并返回最后一行shell结果
+
+exec() 不输出结果,返回最后一行shell结果
+
+passthru() 只调用命令，把运行结果原样输出
+
+new com() 系统预定义com类，根据需要任意选择内置方法
+
+都可以获得命令执行的状态码
+
+$obj = new com("wscript.shell")
+$obj->run("所要执行的doc命令内容");
+
+rar解压命令：winrar x 被解压文件  解压的位置
+
+获取当前的绝对路径：  getcwd()

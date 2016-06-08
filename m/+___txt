@@ -1,0 +1,10 @@
+$this->Session->read('User.subscribe'); //是否关注
+$this->Session->read('User.to_wecha_id'); //来源用户ID
+
+$this->Session->read('User.wecha_id'); //获取用户的openid
+
+$this->Session->read('User.tid'); //tid为用户的ID
+
+isset($_GET['toid']) ? intval($_GET['toid']) : '0'; //toid为来源的用户ID
+
+$this->Session->write('User.ukey',$wecha_id);//ukey为当前的openid

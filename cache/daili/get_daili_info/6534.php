@@ -1,0 +1,2 @@
+<?php $rt=array('id'=>'2','uid'=>'3','sitename'=>'多米商城','logo'=>'photos/localhost/files/201503/31/20150331043603389.png','sitetitle'=>'多米商城','metakey'=>'多米商城','metadesc'=>'多米商城','kefucode'=>'','rank'=>'10');
+$__md5="5024393aafa8bfef9da6899ed0b9f075";?>

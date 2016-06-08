@@ -1,0 +1,2 @@
+<?php $arr=array('yanse'=>'颜色','baozhuang'=>'包装','chima'=>'尺码','buyefangshaiyi'=>'布叶防晒衣','kouhongyanse'=>'口红颜色','neikuyanse'=>'内裤颜色','beixinqunyanse'=>'背心裙颜色','tiaowenOL'=>'条纹OL','modaierbaotunqun'=>'莫代尔包臀裙');
+$__md5="49c581b5f61e60f922635cf6b2cc01ca";?>
