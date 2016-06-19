@@ -3,7 +3,7 @@ date_default_timezone_set('Asia/Shanghai');
 // host $OPENSHIFT_MYSQL_DB_HOST
 $db_host   = "$OPENSHIFT_MYSQL_DB_HOST";
 // database name   
-$db_name   = "tonglu";
+$db_name   = "$OPENSHIFT_APP_NAME";
 // database username
 $db_user   = "$OPENSHIFT_MYSQL_DB_USERNAME"; 
 // database password
