@@ -1,12 +1,13 @@
 <?php
 date_default_timezone_set('Asia/Shanghai');
-$db_host   = "localhost";
-// database name
+// host $OPENSHIFT_MYSQL_DB_HOST
+$db_host   = "$OPENSHIFT_MYSQL_DB_HOST";
+// database name   
 $db_name   = "tonglu";
 // database username
-$db_user   = "root";
+$db_user   = "$OPENSHIFT_MYSQL_DB_USERNAME"; 
 // database password
-$db_pass   = "root"; 
+$db_pass   = "$OPENSHIFT_MYSQL_DB_PASSWORD"; 
 
 $prefix    = "gz_";
 
